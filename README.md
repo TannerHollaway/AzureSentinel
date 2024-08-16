@@ -26,13 +26,22 @@ The main objective of this project was to set up virtual machines that were inte
 - <b>NIST SP 800-61 Revision 2 for Incident Handling Guidance
 
 
-<h2>walkthrough:</h2>
+<h2>Methodology:</h2>
+Creating the honeynet: I began by deploying multiple vulnerable [virtual machines](https://github.com/TannerHollaway/VirtualMachineCreation) in Azure, simulating an insecure environment.
 
+<h2>Monitoring and analysis::</h2>
+Azure was configured to ingest log sources from various resources into a log analytics workspace. Microsoft Sentinel was then used to build attack maps, trigger alerts, and create incidents based on the collected data.
+
+<h2>Security metrics measurement:</h2>
 <p align="center">
-ExampleTextForScreenshot <br/> 
+I observed the environment for 24 hours, recording key security metrics while it was insecure. This provided a baseline to compare against after implementing remediation measures. (HeatmapScreenshot) (INCIDENT RESPONSE LINK) 
+ <br/> 
 <img src="ExampleScreenshot" height="80%" width="80%" alt="ScreenshotName"/>
 <br />
 <br />
+
+
+
 
 
 <p align="center">
