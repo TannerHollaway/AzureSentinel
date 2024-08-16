@@ -3,7 +3,8 @@ I am thrilled to present my latest project, which focuses on building a honeynet
 <br />
 
 <h2>Objective</h2>
-The main objective of this project was to set up virtual machines that were intentionally vulnerable in the Azure infrastructure to attract and analyze cyber attacks. This helped me to better understand the tactics and techniques used by attackers, while also showcasing my ability to respond quickly and effectively to any identified issues.
+
+The main objective of this project was to set up [virtual machines](https://github.com/TannerHollaway/VirtualMachineCreation) that were intentionally vulnerable in the Azure infrastructure to attract and analyze cyber attacks. This helped me to better understand the tactics and techniques used by attackers, while also showcasing my ability to respond quickly and effectively to any identified issues.
 <br />
 
 
