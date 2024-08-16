@@ -43,13 +43,8 @@ I observed the environment for around 4 to 5 hours, recording key security metri
 <img src="https://github.com/user-attachments/assets/dced1de9-3642-41ae-961e-f8074966c82f" height="80%" width="80%" alt="RDPfail"/>
 
 
-
-
-<p align="center">
-ExampleTextForScreenshot <br/> 
-<img src="ExampleScreenshot" height="80%" width="80%" alt="ScreenshotName"/>
-<br />
-<br />
+<h2>Incident response and remediation:</h2>
+After addressing the incidents and identifying vulnerabilities, I began the process of hardening the environment by applying security best practices and Azure-specific recommendations. You can see the strengthening of the environment [here](https://github.com/TannerHollaway/Becoming-NIST-80053-compliant) And my incident response Labs [here](https://github.com/TannerHollaway/Incident-Response)
 
 
 <p align="center">
