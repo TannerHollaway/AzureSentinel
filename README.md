@@ -55,33 +55,33 @@ After addressing the incidents and identifying vulnerabilities, I began the proc
 
 <h2>Post-remediation analysis:</h2>
 
-I re-observed the environment for another 5to 6 hours to measure security metrics again, comparing the results with the initial baseline.
+I re-observed the environment for another 5to 6 hours to measure security metrics again, comparing the results with the initial baseline. Unfortunately heatmaps don't work when there are no alerts or logs to ingest.
+- Metrics before hardening and Security control implimentation.
+  
+| **Metric**                          | **Count** |
+|--------------------------------------|-----------|
+| SecurityEvent (Windows VM)           | 15,355   |
+| SecurityAlert (Microsoft Defender for Cloud) | 20     |
+| SecurityIncident (Sentinel Incidents) | 23       |
+| NSG Inbound Malicious Flows Allowed  | 1697       |
+
+- Metrics after hardening and security control implimentation
+  
+| **Metric**                          | **Count** |
+|--------------------------------------|-----------|
+| SecurityEvent (Windows VM)           | 2980   |
+| SecurityAlert (Microsoft Defender for Cloud) | 0     |
+| SecurityIncident (Sentinel Incidents) | 0       |
+| NSG Inbound Malicious Flows Allowed  | 0       |
+
+<h2>Conclusion</h2>
+
+To conclude, I successfully established a compact yet powerful honeynet using Microsoft Azure's robust cloud infrastructure. Microsoft Sentinel was employed to generate alerts and incidents based on the logs collected from the configured watch lists. Initially, baseline metrics were recorded in the unprotected environment before any security controls were implemented. Following this, a series of security measures were put in place to strengthen the network against potential threats. After these controls were applied, a second set of measurements was conducted.
+
+The comparison between the pre- and post-implementation metrics revealed a substantial decrease in security events and incidents, underscoring the effectiveness of the implemented security controls. It's worth noting that if the network's resources had been heavily utilized by regular users, or I left them on for longer periods of time, it is highly likely that a greater number of security events and alerts could have been observed within the 24-hour period following the implementation of these security controls.
 
 
-<p align="center">
-ExampleTextForScreenshot <br/> 
-<img src="ExampleScreenshot" height="80%" width="80%" alt="ScreenshotName"/>
-<br />
-<br />
 
 
-<p align="center">
-ExampleTextForScreenshot <br/> 
-<img src="ExampleScreenshot" height="80%" width="80%" alt="ScreenshotName"/>
-<br />
-<br />
 
-
-<p align="center">
-ExampleTextForScreenshot <br/> 
-<img src="ExampleScreenshot" height="80%" width="80%" alt="ScreenshotName"/>
-<br />
-<br />
-
-
-<p align="center">
-ExampleTextForScreenshot <br/> 
-<img src="ExampleScreenshot" height="80%" width="80%" alt="ScreenshotName"/>
-<br />
-<br />
 
