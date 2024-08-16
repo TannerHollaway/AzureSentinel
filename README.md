@@ -39,7 +39,8 @@ I observed the environment for around 4 to 5 hours, recording key security metri
 <img src="https://github.com/user-attachments/assets/f8be990a-09dc-4ec7-b660-0390c4d6127d" height="80%" width="80%" alt="NSGALLOW"/>
 <br />
 <br />
-
+<p align="center">
+<img src="https://github.com/user-attachments/assets/dced1de9-3642-41ae-961e-f8074966c82f" height="80%" width="80%" alt="RDPfail"/>
 
 
 
