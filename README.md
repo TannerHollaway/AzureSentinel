@@ -34,9 +34,9 @@ Azure was configured to ingest log sources from various resources into a log ana
 
 <h2>Security metrics measurement:</h2>
 <p align="center">
-I observed the environment for 24 hours, recording key security metrics while it was insecure. This provided a baseline to compare against after implementing remediation measures. (HeatmapScreenshot) (INCIDENT RESPONSE LINK) 
- <br/> 
-<img src="ExampleScreenshot" height="80%" width="80%" alt="ScreenshotName"/>
+I observed the environment for around 4 to 5 hours, recording key security metrics while it was insecure. This provided a baseline to compare against after implementing remediation measures.
+<br/> 
+<img src="https://github.com/user-attachments/assets/f8be990a-09dc-4ec7-b660-0390c4d6127d" height="80%" width="80%" alt="NSGALLOW"/>
 <br />
 <br />
 
