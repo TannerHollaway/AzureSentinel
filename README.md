@@ -40,12 +40,16 @@ Azure was configured to ingest log sources from various resources into a log ana
 
 <h2>Security metrics measurement:</h2>
 <p align="center">
-I observed the environment for around 4 to 5 hours, recording key security metrics while it was insecure. This provided a baseline to compare against after implementing remediation measures.
-<br/> 
+I observed the environment for around 4 to 5 hours, recording key security metrics while it was insecure. This provided a baseline to compare against after implementing remediation measures:
+
+This attack map demonstrates the of securing Network Security Groups (NSG) and underscores the importance of implementing proper security controls.
+  
+  <br/> 
 <img src="https://github.com/user-attachments/assets/f8be990a-09dc-4ec7-b660-0390c4d6127d" height="80%" width="80%" alt="NSGALLOW"/>
 <br />
 <br />
 <p align="center">
+ This attack map shows all RDP and SMB failures, illustrating the persistent attempts made by potential attackers. This visualization shows the strong need for securing remote access and file sharing services to protect against unauthorized access.
 <img src="https://github.com/user-attachments/assets/dced1de9-3642-41ae-961e-f8074966c82f" height="80%" width="80%" alt="RDPfail"/>
 
 
