@@ -58,7 +58,9 @@ This attack map demonstrates the of securing Network Security Groups (NSG) and u
 
 <h2>Incident response and remediation:</h2>
 
-After addressing the incidents and identifying vulnerabilities, I began the process of hardening the environment by applying security best practices and Azure-specific recommendations. You can see the strengthening of the environment [here](https://github.com/TannerHollaway/Becoming-NIST-80053-compliant) And my incident response Labs [here](https://github.com/TannerHollaway/Incident-Response)
+After addressing the incidents and identifying vulnerabilities, I began the process of hardening the environment by applying security best practices and Azure-specific recommendations.
+
+You can see the strengthening of the environment [here](https://github.com/TannerHollaway/Becoming-NIST-80053-compliant) And my incident response Labs [here](https://github.com/TannerHollaway/Incident-Response)
 
 
 <h2>Post-remediation analysis:</h2>
